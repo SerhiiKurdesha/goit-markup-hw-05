@@ -42,6 +42,10 @@ h1 h2 h3 h4 h5 {
     margin: 0;
     padding: 0;
 }
+img {
+    display: block;
+    max-width: 100%;
+}
 /* LOGO */
 .logo {
     font-family: var(--logo-style-font);
