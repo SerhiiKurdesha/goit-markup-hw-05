@@ -650,7 +650,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.03em; 
 }
-.card-overlay-text:hover .overlay-text{
+.portfolio-link:hover .overlay-text{
     transform: translateX(0);
 }
 /* OVERLAY */
@@ -669,7 +669,8 @@ img {
 }
 .backdrop.is-hidden{
     opacity: 0;
-    pointer-events: none; 
+    pointer-events: none;
+    visibility: hidden; 
 }
 .backdrop.is-hidden .modal{
     transform: translate(-50%, -50%) scale(0.5);
