@@ -658,6 +658,9 @@ img {
 .portfolio-link:hover .overlay-text{
     transform: translateX(0);
 }
+.portfolio-link:focus .overlay-text{
+    transform: translateX(0);
+} 
 /* OVERLAY */
 
 /* BACKDROP & MODAL_WINDOW */
